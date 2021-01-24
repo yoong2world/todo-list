@@ -1,0 +1,25 @@
+{
+  "name": "palette",
+  "version": "1.0.0",
+  "description": "palette",
+  "author": "does",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "sass-autoprefixer": "^1.0.1",
+    "scss-compile": "^0.1.7",
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "graceful-fs": {
+      "version": "4.2.2"
+    },
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass --output-style compact -rw ./assets/scss -o ./assets/css --source-map true"
+  }
+}
